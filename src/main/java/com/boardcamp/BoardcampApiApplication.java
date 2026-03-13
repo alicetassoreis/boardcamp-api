@@ -1,13 +1,13 @@
-package com.boardcamp.api;
+package com.boardcamp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiApplication {
+public class BoardcampApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiApplication.class, args);
+		SpringApplication.run(BoardcampApiApplication.class, args);
 	}
 
 }
